@@ -5,3 +5,7 @@
 ## JS
 
 1. [数组去重](https://github.com/xxj95719/Blog/blob/master/doc/js/array-deduplication.md)
+
+## Vue
+
+1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/js/vue-plugin.md)
