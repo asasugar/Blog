@@ -4,4 +4,4 @@
 
 ## JS
 
-1. [数组去重](https://github.com/xxj95719/Blog/doc/array-deduplication.md)
+1. [数组去重](https://github.com/xxj95719/Blog/blob/master/doc/js/array-deduplication.md)
