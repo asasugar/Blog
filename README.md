@@ -8,4 +8,4 @@
 
 ## Vue
 
-1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/js/vue-plugin.md)
+1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-plugin.md)
