@@ -11,6 +11,7 @@
 ## Vue
 
 1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-plugin.md)
+2. [项目优化](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-majorization.md)
 
 ## 构建工具
 
