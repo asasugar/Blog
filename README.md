@@ -16,3 +16,7 @@
 ## 构建工具
 
 1. [如何使用 rollup 构建代码？](https://github.com/xxj95719/Blog/blob/master/doc/buildTool/rollup.md)
+
+## 其他杂项
+
+1. [前端开发规范](https://github.com/xxj95719/Blog/blob/master/doc/other/standard.md)
