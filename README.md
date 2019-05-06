@@ -8,6 +8,8 @@
 
 2. [如何实现事件总线 EvenBus.js?](https://github.com/xxj95719/Blog/blob/master/doc/js/evenbus.md)
 
+3. [箭头函数与普通函数的区别](https://github.com/xxj95719/Blog/blob/master/doc/js/fn.md)
+
 ## Vue
 
 1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-plugin.md)
