@@ -38,10 +38,9 @@ const CustomModal = async ({
       this.showHead = showHead;
       this.footerHide = footerHide;
       this.render = render;
-      this.$on("on-ok", onOk);
-      this.$on("on-cancel", onCancel);
-    },
-    methods: {}
+      this.onOk = onOk;
+      this.onCancel = onCancel;
+    }
   });
   vm.$mount();
   document.body.appendChild(vm.$el);
@@ -71,7 +70,7 @@ export default CustomModal;
 
 ### template.vue
 
-```html
+```Html
 <template>
   <div v-show="visible">
     <transition name="fade" mode="out-in">
@@ -120,7 +119,9 @@ export default CustomModal;
         type: Boolean,
         default: false
       },
-      render: Function
+      render: Function,
+      onOk: Function,
+      onCancel: Function
     },
     data() {
       return {
@@ -136,15 +137,14 @@ export default CustomModal;
       destroyed() {
         this.visible = false;
         this.$el.remove();
-        this.$destroy();
       },
       ok() {
+        this.onOk();
         this.destroyed();
-        this.$emit("on-ok");
       },
       cancel() {
+        this.onCancel();
         this.destroyed();
-        this.$emit("on-cancel");
       }
     }
   };
@@ -224,12 +224,24 @@ export default CustomModal;
 </style>
 ```
 
-### 发布 npm
+### 怎么使用？
 
 ```js
-npm login
-// 输入npm账号，密码
+// main.js
+import CustomModal from "@/components/CustomModal";
+Vue.prototype.$CustomModal = CustomModal;
+```
 
-npm publish
-// 发布插件前会执行`republish`命令，完成打包压缩
+```js
+this.$CustomModal({
+  render: () => {
+    return <div>123</div>;
+  },
+  onOk: () => {
+    console.log("ok");
+  },
+  onCancel: () => {
+    console.log("cancel");
+  }
+}); // 传入参数就完事了
 ```
