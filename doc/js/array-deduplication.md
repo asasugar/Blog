@@ -74,7 +74,7 @@ console.log(newArr); // [1, 4, 3, 2, 6]
 
 ```js
 const arr = [1, 1, 4, 3, 2, 6];
-
+arr = arr.sort();
 arr.forEach((item, index) => {
   if (arr[index] !== arr[index + 1]) {
     newArr.push(arr[index]);
