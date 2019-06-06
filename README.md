@@ -23,3 +23,4 @@
 ## 其他杂项
 
 1. [前端开发规范](https://github.com/xxj95719/Blog/blob/master/doc/other/standard.md)
+2. [生成 ssh key](https://github.com/xxj95719/Blog/blob/master/doc/other/ssh-key.md)
