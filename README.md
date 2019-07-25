@@ -16,6 +16,10 @@
 2. [如何编写 Vue reder 组件](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-render-component.md)
 3. [Vue 项目优化](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-majorization.md)
 
+## React-Native
+
+1. [如何使用react-mobx作状态管理？](https://github.com/xxj95719/Blog/blob/master/doc/rn/react-mobx.md)
+
 ## 构建工具
 
 1. [如何使用 rollup 构建代码？](https://github.com/xxj95719/Blog/blob/master/doc/buildTool/rollup.md)
