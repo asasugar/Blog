@@ -18,7 +18,7 @@
 
 ## React-Native
 
-1. [如何使用react-mobx作状态管理？](https://github.com/xxj95719/Blog/blob/master/doc/rn/react-mobx.md)
+1. [如何使用mobx-react做rn状态管理？](https://github.com/xxj95719/Blog/blob/master/doc/rn/mobx-react.md)
 
 ## 构建工具
 
