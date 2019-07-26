@@ -24,6 +24,9 @@
 
 3. [为rn修改包名`[Android篇]`](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-rename-android.md)
 
+4. [让rn支持http](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-http.md)
+
+
 ## 构建工具
 
 1. [如何使用 rollup 构建代码？](https://github.com/xxj95719/Blog/blob/master/doc/buildTool/rollup.md)
