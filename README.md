@@ -24,7 +24,9 @@
 
 3. [为rn修改包名`[Android篇]`](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-rename-android.md)
 
-4. [让rn支持http](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-http.md)
+4. [为rn修改包名`[iOS篇]`](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-rename-ios.md)
+
+5. [让rn支持http](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-http.md)
 
 
 ## 构建工具
