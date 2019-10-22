@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.1.0",
+  "description": "🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。",
+  "main": "index.js",
+  "repository": "https://github.com/xxj95719/Blog.git",
+  "author": "xxj95719@gmail.com",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "git-cz": "^3.2.1",
+    "standard-version": "^7.0.0"
+  }
+}
