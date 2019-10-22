@@ -40,3 +40,5 @@
 1. [前端开发规范](https://github.com/xxj95719/Blog/blob/master/doc/other/standard.md)
 2. [生成 ssh key](https://github.com/xxj95719/Blog/blob/master/doc/other/ssh-key.md)
 3. [如何让浏览器下载文件，而不直接打开？](https://github.com/xxj95719/Blog/blob/master/doc/other/pdf-down.md)
+4. [规范git提交利器](https://github.com/xxj95719/Blog/blob/master/doc/other/git.md)
+

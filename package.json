@@ -8,14 +8,14 @@
   "scripts": {
     "release": "standard-version"
   },
-  "config": {
-    "commitizen": {
-      "path": "git-cz"
-    }
-  },
   "license": "MIT",
   "devDependencies": {
     "git-cz": "^3.2.1",
     "standard-version": "^7.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
   }
 }
