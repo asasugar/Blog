@@ -33,6 +33,9 @@
 7. [支持AndoridX](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-androidX.md)
 
 8. [Android App 方法超出64K解决方案，即如何启动“多 dex 文件”](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-android-64K.md)
+
+9. [rn修改应用版本号](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-set-version.md)
+
 ## 构建工具
 
 1. [如何使用 rollup 构建代码？](https://github.com/xxj95719/Blog/blob/master/doc/buildTool/rollup.md)
