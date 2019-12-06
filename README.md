@@ -2,6 +2,9 @@
 
 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。
 
+***
+## 最近更新：[rn修改应用版本号](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-set-version.md) (2019-12-04)
+***
 ## JS
 
 1. [数组去重](https://github.com/xxj95719/Blog/blob/master/doc/js/array-deduplication.md)
