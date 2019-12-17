@@ -9,6 +9,7 @@
 ### 一、全局安装
 
 ```bish
+npm install -g commitizen
 npm install -g git-cz
 ```
 
@@ -26,10 +27,10 @@ package.json:
 run
 
 ```bish
-git-cz
+git cz / git-cz
 ```
 
-### 二、通过`commitizen`本地安装
+### 二、本地安装
 
 ```bish
 npm install -g commitizen
