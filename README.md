@@ -3,7 +3,7 @@
 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。
 
 ***
-## 最近更新：[rn修改应用版本号](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-set-version.md) (2019-12-04)
+## 最近更新：[为rn修改包名`[iOS篇]`内容更新](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-rename-ios.md) (2019-12-26)
 ***
 ## JS
 
