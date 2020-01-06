@@ -3,7 +3,7 @@
 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。
 
 ***
-## 最近更新：[为rn修改包名`[iOS篇]`内容更新](https://github.com/xxj95719/Blog/blob/master/doc/rn/rn-rename-ios.md) (2019-12-26)
+## 最近更新：[防抖与节流](https://github.com/xxj95719/Blog/blob/master/doc/js/debounceAndthrottle.md) (2020-01-06)
 ***
 ## JS
 
@@ -12,6 +12,8 @@
 2. [如何实现事件总线 EvenBus.js?](https://github.com/xxj95719/Blog/blob/master/doc/js/evenbus.md)
 
 3. [箭头函数与普通函数的区别](https://github.com/xxj95719/Blog/blob/master/doc/js/fn.md)
+
+4. [防抖与节流](https://github.com/xxj95719/Blog/blob/master/doc/js/debounceAndthrottle.md)
 
 ## Vue
 
