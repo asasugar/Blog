@@ -3,7 +3,7 @@
 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。
 
 ***
-## 最近更新：[防抖与节流](https://github.com/xxj95719/Blog/blob/master/doc/js/debounceAndthrottle.md) (2020-01-06)
+## 最近更新：[Event Loop](https://github.com/xxj95719/Blog/blob/master/doc/js/event-loop.md) (2020-03-02)
 ***
 ## JS
 
@@ -15,10 +15,11 @@
 
 4. [防抖与节流](https://github.com/xxj95719/Blog/blob/master/doc/js/debounceAndthrottle.md)
 
+5. [Event Loop（浏览器端）](https://github.com/xxj95719/Blog/blob/master/doc/js/event-loop.md)
 ## Vue
 
 1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-plugin.md)
-2. [如何编写 Vue reder 组件](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-render-component.md)
+2. [如何编写 Vue render 组件](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-render-component.md)
 3. [Vue 项目优化](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-majorization.md)
 
 ## React-Native
