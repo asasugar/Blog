@@ -53,3 +53,44 @@ console.log(5); // 主代码块宏任务
 // 输出顺序： 1、3、5、4、6、2、7
 ```
 
+## 3.扩展题
+
+```js
+console.log(1); // 主代码块宏任务
+
+const fn = async()=>{
+  await (()=>{});
+  await (console.log(2))
+}
+fn();
+console.log(3);
+
+// 输出顺序： 1、3、2
+```
+
+```js
+console.log(1); // 主代码块宏任务
+
+const fn = async()=>{
+  // await (()=>{});
+  await (console.log(2))
+}
+fn();
+console.log(3);
+
+// 输出顺序： 1、2、3
+```
+为什么两次的输出结果不一样，原因就是async await，首次await之后才开始为微任务，可以把代码转化成：
+
+
+```js
+console.log(1); // 主代码块宏任务
+
+const fn = Promise.resolve(console.log(2)).then(() =>{
+  
+})
+fn();
+console.log(3);
+
+// 输出顺序： 1、2、3
+```
