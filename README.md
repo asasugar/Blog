@@ -3,7 +3,7 @@
 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。
 
 ***
-## 最近更新：[Event Loop](https://github.com/xxj95719/Blog/blob/master/doc/js/event-loop.md) (2020-03-02)
+## 最近更新：[js继承](https://github.com/xxj95719/Blog/blob/master/doc/js/extends.md) (2020-03-19)
 ***
 ## JS
 
@@ -16,6 +16,8 @@
 4. [防抖与节流](https://github.com/xxj95719/Blog/blob/master/doc/js/debounceAndthrottle.md)
 
 5. [Event Loop（浏览器端）](https://github.com/xxj95719/Blog/blob/master/doc/js/event-loop.md)
+
+6. [js继承](https://github.com/xxj95719/Blog/blob/master/doc/js/extends.md)
 ## Vue
 
 1. [如何编写 Vue 插件？](https://github.com/xxj95719/Blog/blob/master/doc/vue/vue-plugin.md)
