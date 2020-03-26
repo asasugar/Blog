@@ -1,12 +1,12 @@
 module.exports = {
-  base: '/Blog/',
+  base: '/',
   title: '随便写写',
   description: '🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单',
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    repo: 'https://github.com/xxj95719/Blog',
+    repo: 'http://xxjkjqb.cn/',
     repoLabel: 'My GitHub',
     lastUpdated: '上次更新',
     // 导航栏
