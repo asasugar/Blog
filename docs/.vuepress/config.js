@@ -1,14 +1,14 @@
 module.exports = {
   base: '/Blog/',
-  title: 'Blog-😄',
+  title: '随便写写',
   description: '🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单',
-  lastUpdated: 'Last Updated',
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
     repo: 'https://github.com/xxj95719/Blog',
     repoLabel: 'My GitHub',
+    lastUpdated: '上次更新',
     // 导航栏
     nav: [
       { text: 'Home', link: '/' },
