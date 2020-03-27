@@ -6,7 +6,7 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    repo: 'https://blog.xxjkjqb.cn',
+    repo: 'https://blog.xxjkjqb.cn/',
     repoLabel: 'My GitHub',
     lastUpdated: '上次更新',
     // 导航栏
