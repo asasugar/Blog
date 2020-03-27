@@ -6,7 +6,7 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    repo: 'https://blog.xxjkjqb.cn/',
+    repo: 'https://github.com/xxj95719/Blog',
     repoLabel: 'My GitHub',
     lastUpdated: '上次更新',
     // 导航栏
@@ -35,7 +35,6 @@ module.exports = {
         children: [
           '/vue/vue-plugin.md',
           '/vue/vue-render-component.md',
-          '/vue/vue-majorization.md'
         ]
       },
       {
@@ -57,6 +56,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/buildTool/rollup.md',
+          '/buildTool/webpack-optimizate.md'
         ]
       },
       {
