@@ -8,19 +8,14 @@
   "scripts": {
     "serve": "vuepress dev docs",
     "build": "vuepress build docs",
+    "predeploy": "yarn build && cp CNAME docs/.vuepress/dist",
     "deploy": "gh-pages -d docs/.vuepress/dist",
     "release": "standard-version"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn deploy"
-    }
   },
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "git-cz": "^3.2.1",
-    "husky": "^4.2.3",
     "standard-version": "^7.0.0"
   },
   "config": {
