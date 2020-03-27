@@ -3,7 +3,11 @@ module.exports = {
   title: '随便写写',
   description: '🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单',
   head: [
-    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+    ['link', { rel: 'icon', href: `/favicon.png` }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   plugins: ['@vuepress/back-to-top'],
   markdown: {
@@ -16,7 +20,7 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '帮助我改善此页面！',
-    logo: './logo.png',
+    logo: '/logo.png',
     // 导航栏
     nav: [
       { text: 'Home', link: '/' },
