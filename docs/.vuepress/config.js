@@ -2,13 +2,21 @@ module.exports = {
   base: '/',
   title: '随便写写',
   description: '🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单',
+  head: [
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+  ],
+  plugins: ['@vuepress/back-to-top'],
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
   },
   themeConfig: {
     repo: 'https://github.com/xxj95719/Blog',
     repoLabel: 'My GitHub',
     lastUpdated: '上次更新',
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '帮助我改善此页面！',
+    logo: './logo.png',
     // 导航栏
     nav: [
       { text: 'Home', link: '/' },

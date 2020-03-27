@@ -6,7 +6,7 @@
   "repository": "https://github.com/xxj95719/Blog.git",
   "author": "xxj95719@gmail.com",
   "scripts": {
-    "serve": "vuepress dev docs",
+    "serve": "vuepress dev docs --open",
     "build": "vuepress build docs",
     "predeploy": "yarn build && cp CNAME docs/.vuepress/dist",
     "deploy": "gh-pages -d docs/.vuepress/dist",
@@ -14,6 +14,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
     "gh-pages": "^2.2.0",
     "git-cz": "^3.2.1",
     "standard-version": "^7.0.0"
