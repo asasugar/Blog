@@ -1,9 +1,9 @@
 # 兄 dei，是时候给你的 Webpack 做一波优化了~
 
 
-# 体积篇
+## 体积篇
 
-## 1. 开启 `gzip` 压缩（压缩率 70%）
+### 1. 开启 `gzip` 压缩（压缩率 70%）
 
 前端配置
 
@@ -56,7 +56,7 @@ gzip_disable "MSIE [1-6]\.";
 
 ![20190428095607.png](https://user-gold-cdn.xitu.io/2019/1/4/16818e8558ffa241?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
-## 2. 配置 `externals` 使用 `cdn` 引入第三库
+### 2. 配置 `externals` 使用 `cdn` 引入第三库
 
 在 `index.html` 中使用 `<script>` 标签引入
 ```html
@@ -92,7 +92,7 @@ module.exports = {
 };
 ```
 
-## 3.devtoop 中的 `source-map` 与 css-loader 的 `sourceMap`
+### 3.devtoop 中的 `source-map` 与 css-loader 的 `sourceMap`
 
 虽说生产环境使用 source-map 有助于查看 bug，但同时也会生成一个较大的 map 文件，你可以自行关闭
 
@@ -115,7 +115,7 @@ module.exports = {
 };
 ```
 
-## 4.IgnorePlugin
+### 4.IgnorePlugin
 
 使用场景：我们就可以使用 IgnorePlugin 在打包时忽略 `moment` 本地化内容
 
@@ -131,7 +131,7 @@ module.exports = {
 
 ```
 
-## 5.按需引入第三方 UI 库，以[Element](https://element.eleme.cn/#/zh-CN/component/installation)为例
+### 5.按需引入第三方 UI 库，以[Element](https://element.eleme.cn/#/zh-CN/component/installation)为例
 
 借助 `babel-plugin-component`，我们可以只引入需要的组件，以达到减小项目体积的目的。
 
@@ -158,11 +158,11 @@ module.exports = {
 };
 ```
 
-## 6.tree-shaking
+### 6.tree-shaking
 
 使用ES6的import 语法，那么在生产环境下，会自动移除没有使用到的代码。
 
-## 7.`purgecss-webpack-plugin` 移除未使用的css
+### 7.`purgecss-webpack-plugin` 移除未使用的css
 
 ```js
 const PurgecssWebpackPlugin = require('purgecss-webpack-plugin');
@@ -174,7 +174,7 @@ module.exports = {
 }
 ```
 
-## 8.代码分割
+### 8.代码分割
 
 webpack将根据以下条件自动分割块：
 
@@ -214,9 +214,9 @@ module.exports = {
 }
 ```
 
-# 速度篇
+## 速度篇
 
-## 1.减小文件搜索范围
+### 1.减小文件搜索范围
 
 设置别名（`alias`）在项目中可缩减引用路径
 
@@ -242,7 +242,7 @@ module.exports = {
 };
 ```
 
-## 2.exclude/include
+### 2.exclude/include
 
 `exclude`（指定排除的文件） 的优先级高于 `include`（指定包含的文件），尽量避免 `exclude`，推荐使用 `include`
 
@@ -262,7 +262,7 @@ module.exports = {
 };
 ```
 
-## 3.noParse
+### 3.noParse
 
 使用场景：使用没有AMD/CommonJS规范版本的第三方库，希望webpack引入该模块但不进行转化和解析，可以配置 `noParse` 从而提高构建性能。
 
@@ -285,7 +285,7 @@ module.exports = {
 };
 ```
 
-## 4.cache-loader
+### 4.cache-loader
 
 在一些性能开销较大的 `loader` 之前添加 `cache-loader`，将结果缓存中磁盘中。默认保存在 `node_modueles/.cache/cache-loader` 目录下
 
@@ -328,9 +328,9 @@ module.exports = {
 };
 ```
 
-## 5.使用 autodll-webpack-plugin 插件
+### 5.使用 autodll-webpack-plugin 插件
 
-### 其中原理是，将特定的第三方 NPM 包模块提前构建 👌，然后通过页面引入。这不仅能够使得 vendor 文件可以大幅度减小，同时，也极大的提高了构建速度。
+其中原理是，将特定的第三方 NPM 包模块提前构建 👌，然后通过页面引入。这不仅能够使得 vendor 文件可以大幅度减小，同时，也极大的提高了构建速度。
 
 ```js
 const AutoDllWebpackPlugin = require('autodll-webpack-plugin');
@@ -352,7 +352,7 @@ module.exports = {
 }
 ```
 
-## 6.`webpack4` 的打包性能足够好了，`dll` 提升效果有限，可以使用 `hard-source-webpack-plugin`
+### 6.`webpack4` 的打包性能足够好了，`dll` 提升效果有限，可以使用 `hard-source-webpack-plugin`
 
 `hard-source-webpack-plugin` 为模块提供中间缓存，缓存默认的存放路径是: `node_modules/.cache/hard-source`
 
@@ -368,9 +368,9 @@ module.exports = {
 }
 ```
 
-## 7.用 `Happypack` 来加速代码构建
+### 7.用 `Happypack` 来加速代码构建
 
-### 处理思路是：将原有的 webpack 对 loader 的执行过程，从单一进程的形式扩展多进程模式，从而加速代码构建
+处理思路是：将原有的 webpack 对 loader 的执行过程，从单一进程的形式扩展多进程模式，从而加速代码构建
 
 ```js
 const Happypack = require('happypack');
@@ -394,7 +394,7 @@ module.exports = {
 }
 ```
 
-## 8.thread-loader
+### 8.thread-loader
 
 ```js
 module.exports = {
