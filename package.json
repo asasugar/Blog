@@ -16,7 +16,6 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.0",
     "gh-pages": "^2.2.0",
-    "git-cz": "^3.2.1",
     "standard-version": "^7.0.0"
   },
   "config": {

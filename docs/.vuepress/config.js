@@ -79,6 +79,7 @@ module.exports = {
           '/other/ssh-key.md',
           '/other/pdf-down.md',
           '/other/git.md',
+          '/other/vuepress-blog.md',
         ]
       }
     ]

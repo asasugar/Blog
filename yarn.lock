@@ -3821,13 +3821,6 @@ gh-pages@^2.2.0:
     fs-extra "^8.1.0"
     globby "^6.1.0"
 
-git-cz@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.npm.taobao.org/git-cz/download/git-cz-3.2.1.tgz#24c0719936064edf133c2886f56e321d3ae443c0"
-  integrity sha1-JMBxmTYGTt8TPCiG9W4yHTrkQ8A=
-  dependencies:
-    global "^4.3.2"
-
 git-raw-commits@2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/git-raw-commits/download/git-raw-commits-2.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgit-raw-commits%2Fdownload%2Fgit-raw-commits-2.0.0.tgz#d92addf74440c14bcc5c83ecce3fb7f8a79118b5"
