@@ -2,13 +2,13 @@
 
 # 为什么要上eslint？首先可以统一代码的风格，通过制定规则，避免一些低级的编码错误，其次可以避免因为格式化问题引起的大量冲突
 
-## 1、安装依赖包
+## 1.安装依赖包
 
 ```bish
 yarn add babel-eslint eslint eslint-config-airbnb eslint-config-react-native eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-module-resolver eslint-plugin-react eslint-plugin-react-native -D
 ```
 
-## 2、配置.eslintrc.js
+## 2.配置.eslintrc.js
 
 ```js
 module.exports = {
@@ -107,13 +107,13 @@ module.exports = {
 
 ```
 
-## 3、配置.eslintignore忽略不需要eslit检测的文件
+## 3.配置.eslintignore忽略不需要eslit检测的文件
 
 ```
 src/*.md
 ```
 
-## 4、结合vscode插件`eslint`实现运行时eslint检测
+## 4.结合vscode插件`eslint`实现运行时eslint检测
 
 - 设置扩展 `Auto Fix On Save`实现保存自动按照eslint配置格式化
 
@@ -125,7 +125,7 @@ src/*.md
 }
 ```
 
-## 5、package.json中加入lint命令，push之前运行，检测所有代码
+## 5.package.json中加入lint命令，push之前运行，检测所有代码
 
 ```json
 {
@@ -134,3 +134,25 @@ src/*.md
   },
 }
 ```
+## 6.`husky` 和 `lint-staged` 实现增量 lint 检测（只检测修改的文件）
+
+```js
+# 安装依赖
+yarn add husky lint-staged -D
+
+# 配置 package.json
+{
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+}
+```
+
