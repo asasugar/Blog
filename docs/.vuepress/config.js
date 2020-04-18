@@ -72,6 +72,13 @@ module.exports = {
         ]
       },
       {
+        title: '前端性能优化',
+        collapsable: false,
+        children: [
+          '/performanceOptimization/lazyImage.md',
+        ]
+      },
+      {
         title: '其他杂项',
         collapsable: false,
         children: [
