@@ -47,6 +47,7 @@ module.exports = {
         children: [
           '/vue/vue-plugin.md',
           '/vue/vue-render-component.md',
+          '/vue/vuex.md',
         ]
       },
       {
