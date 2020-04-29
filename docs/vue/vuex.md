@@ -2,8 +2,8 @@
 
 ### 实现的方法分析
 
-1. 作为插件一定有 `install` 方法，可以在其中进行 `mixin` ，当 `Vue实例化` 后挂载前拿到给其配置的store实例，把 `store` 挂载到原型上，以便全局可用；
-2. 持有基本的 `state` 、保存实例化router时配置的 `mutations` 、 `actions` 对象；
+1. 作为插件一定有 `install` 方法，可以在其中进行 `mixin` ，当 `Vue实例化` 后拿到给其配置的store实例，把 `store` 挂载到原型上，以便全局可用；
+2. 持有基本的 `state` 、保存实例化Store时配置的 `mutations` 、 `actions` 对象；
 3. 实现 `commit` 及 `dispatch` 等方法。
 
 ### 主代码块

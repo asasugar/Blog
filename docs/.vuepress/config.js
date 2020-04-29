@@ -1,7 +1,7 @@
 module.exports = {
   base: '/',
   title: '随便写写',
-  description: '🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单',
+  description: '带着自己的影子回家的时候，才知道什么是寂寞和孤单',
   head: [
     ['link', { rel: 'icon', href: `/favicon.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
