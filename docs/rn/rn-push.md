@@ -4,7 +4,7 @@
 
 ## 为什么需要多厂商推送
 
-由于国内，谷歌被Q,离线推送需要走厂商通道，目前市面上主流的厂商通道包括`oppo`、`vivo`、`小米`、`魅族`、`华为`，主流的第三方推送平台如极光、个推，需要集成多厂商的话，需要与它们的商务沟通，会发送文档集成，我们还需要到各厂商开通推送服务，获取相应的参数集成到第三方推送。集成的话一般按文档就能实现，但是多厂商的消息push的rn的js层需要我们自己处理，本文主要讲的是如何push厂商消息
+由于国内，谷歌被Q,离线推送需要走厂商通道，目前市面上主流的厂商通道包括`oppo`、`vivo`、`小米`、`魅族`、`华为`，主流的第三方推送平台如极光、个推，需要集成多厂商的话，需要与它们的商务沟通，会发送文档集成，我们还需要到各厂商开通推送服务，获取相应的参数集成到第三方推送。集成的话一般按文档就能实现，但是多厂商的消息push到rn的js层需要我们自己处理，本文主要讲的是如何push厂商消息
 
 ## MainActivity.java
 
@@ -224,7 +224,8 @@ public class MainActivity extends ReactActivity {
 ```js
 import { DeviceEventEmitter } from 'react-native';
 import JPush from 'jpush-react-native';
-...{
+...
+{
     componentWillMount(){
         this.getJPushMsg();
     }
