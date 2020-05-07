@@ -49,6 +49,8 @@
 
 - [rn修改应用版本号](https://github.com/xxj95719/Blog/blob/master/docs/rn/rn-set-version.md)
 
+- [android多厂商推送交互](https://github.com/xxj95719/Blog/blob/master/docs/rn/rn-push.md)
+
 ### 构建工具
 
 - [如何使用 rollup 构建 js？](https://github.com/xxj95719/Blog/blob/master/docs/buildTool/rollup.md)

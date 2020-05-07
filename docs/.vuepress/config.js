@@ -61,7 +61,8 @@ module.exports = {
           '/rn/rn-http.md',
           '/rn/rn-androidX.md',
           '/rn/rn-android-64K.md',
-          '/rn/rn-set-version.md'
+          '/rn/rn-set-version.md',
+          '/rn/rn-push.md'
         ]
       },
       {
