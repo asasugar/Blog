@@ -18,7 +18,8 @@ src
 ### index.js
 
 ```js
-import template from "./template.vue";
+import Vue from "vue";
+import template from "./Template.vue";
 const CustomModalConstructor = Vue.extend(template);
 const CustomModal = async ({
   render,
@@ -49,7 +50,7 @@ const CustomModal = async ({
 export default CustomModal;
 ```
 
-### render.vue
+### Render.vue
 
 ```html
 <script>
@@ -68,7 +69,7 @@ export default CustomModal;
 </script>
 ```
 
-### template.vue
+### Template.vue
 
 ```Html
 <template>
