@@ -63,13 +63,15 @@
 
 ### 其他杂项
 
+- [带你掌握Git命令](https://github.com/xxj95719/Blog/blob/master/docs/other/git.md	)
+
 - [前端开发规范](https://github.com/xxj95719/Blog/blob/master/docs/other/standard.md	)
 
 - [git 生成 ssh key](https://github.com/xxj95719/Blog/blob/master/docs/other/ssh-key.md	)
 
 - [让浏览器下载文件，而不直接打开](https://github.com/xxj95719/Blog/blob/master/docs/other/pdf-down.md	)
 
-- [规范git提交利器指南](https://github.com/xxj95719/Blog/blob/master/docs/other/git.md	)
+- [规范git提交利器指南](https://github.com/xxj95719/Blog/blob/master/docs/other/git-commit.md	)
 
 - [vuepress搭建个人博客](https://github.com/xxj95719/Blog/blob/master/docs/other/vuepress-blob.md	)
 

@@ -181,10 +181,11 @@ module.exports = {
         title: '其他杂项',
         collapsable: false,
         children: [
+          '/other/git.md',
           '/other/standard.md',
           '/other/ssh-key.md',
           '/other/pdf-down.md',
-          '/other/git.md',
+          '/other/git-commit.md',
           '/other/vuepress-blog.md',
         ]
       }
