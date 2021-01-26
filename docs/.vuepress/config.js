@@ -81,7 +81,7 @@ module.exports = {
         ]
       },
       {
-        title: '其他杂项',
+        title: '其他',
         collapsable: false,
         children: [
           '/other/git.md',
@@ -90,6 +90,7 @@ module.exports = {
           '/other/pdf-down.md',
           '/other/git-commit.md',
           '/other/vuepress-blog.md',
+          '/other/h5.md',
         ]
       }
     ]
