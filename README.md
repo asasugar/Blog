@@ -22,6 +22,7 @@
 
 - [js源码手写系列](https://github.com/xxj95719/Blog/blob/master/docs/js/handwriting-series.md)
 
+- [深度对比两个值是否相等](https://github.com/xxj95719/Blog/blob/master/docs/js/isEqual.md)
 
 ### Vue
 

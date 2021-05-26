@@ -4,7 +4,7 @@ heroImage: /kebogigi.jpg
 heroText: null
 tagline: R.I.P
 actionText: 最近更新 →
-actionLink: /other/h5.md
+actionLink: /js/isEqual.md
 features:
 - title: 💪
   details: I do what I do.
