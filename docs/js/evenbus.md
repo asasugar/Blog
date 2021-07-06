@@ -62,4 +62,4 @@ export default class EvenBus {
 
 ---
 
-### 使用 rollup 发布 npm,可 👉[如何使用 rollup 构建代码？](https://github.com/xxj95719/Blog/blob/master/docs/buildTool/rollup.md)
+### 使用 rollup 发布 npm,可 👉[如何使用 rollup 构建代码？](https://github.com/asasugar/Blog/blob/master/docs/buildTool/rollup.md)

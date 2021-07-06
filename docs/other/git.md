@@ -109,7 +109,7 @@
   git fetch origin <branch-name>:<local-branch-name>
   ```
 
-- 重命名分支
+- 重命名本地分支
 
   ```bish
   git branch -m <oldbranch-name> <newbranch-name>
@@ -133,6 +133,13 @@
   git push origin -d <branch-name>
   ```
 
+- 重命名本地并推送至远程分支
+
+  ```bish
+  git branch -m <oldbranch-name> <newbranch-name>
+  git push origin :<oldbranch-name>
+  git push --set-upstream origin <newbranch-name>
+  ```
 ## 撤销
 
 - 撤销工作区修改

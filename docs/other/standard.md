@@ -49,7 +49,7 @@
 
   ```js
   const MAX_COUNT = 10;
-  const URL = "https://github.com/xxj95719";
+  const URL = "https://github.com/asasugar";
   ```
 
 - 3.3 函数

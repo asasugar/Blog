@@ -225,4 +225,4 @@ yarn deploy // 会打包出 dist 文件夹，并自动发布到 gh-pages 分支
 ```
 
 -----
-# ⭐️[查看源码](https://github.com/xxj95719/Blog)
+# ⭐️[查看源码](https://github.com/asasugar/Blog)

@@ -1,6 +1,6 @@
 # 如何编写 Vue 插件？
 
-## 展示主要代码，详细可点击 👉[vue-plugin](https://github.com/xxj95719/vue-plugin)
+## 展示主要代码，详细可点击 👉[vue-plugin](https://github.com/asasugar/vue-plugin)
 
 ### 主要目录结构
 
@@ -136,7 +136,7 @@ if (process.env.NODE_ENV === "production") {
   "main": "dist/vue-plugin.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xxj95719/vue-initial-list"
+    "url": "https://github.com/asasugar/vue-initial-list"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
