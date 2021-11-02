@@ -13,22 +13,13 @@ npm install -g commitizen
 npm install -g git-cz
 ```
 
-package.json:
-
-```json
-{
-  "config": {
-    "commitizen": {
-      "path": "git-cz"
-    }
-  },
-}
-```
 run
 
 ```bish
 git cz / git-cz
 ```
+
+![20211102141718](https://i.loli.net/2021/11/02/mwXbWiQ8RfPO2Gl.png)
 
 ### 二、本地安装
 
