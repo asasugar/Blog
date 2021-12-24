@@ -38,7 +38,8 @@ module.exports = {
           '/js/debounceAndthrottle.md',
           '/js/event-loop.md',
           '/js/extends.md',
-          '/js/handwriting-series.md'
+          '/js/handwriting-series.md',
+          '/js/axios.md'
         ]
       },
       {
