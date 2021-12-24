@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/asasugar/Blog/compare/v1.2.0...v1.3.0) (2021-12-24)
+
+
+### Features
+
+* 🎸 axios封装支持请求缓存重发取消 ([a4b91d9](https://github.com/asasugar/Blog/commit/a4b91d996e36159c55913763674daebaf10a8347))
+
 ## [1.2.0](https://github.com/asasugar/Blog/compare/v1.1.0...v1.2.0) (2021-12-24)
 
 
