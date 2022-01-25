@@ -4,7 +4,7 @@ heroImage: /kebogigi.jpg
 heroText: null
 tagline: R.I.P
 actionText: 最近更新 →
-actionLink: /js/axios.md
+actionLink: /vue/vue-router@4-addRoutes.md
 features:
 - title: 💪
   details: I do what I do.

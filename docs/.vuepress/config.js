@@ -39,6 +39,7 @@ module.exports = {
           '/js/event-loop.md',
           '/js/extends.md',
           '/js/handwriting-series.md',
+          '/js/isEqual.md',
           '/js/axios.md'
         ]
       },
@@ -49,6 +50,7 @@ module.exports = {
           '/vue/vue-plugin.md',
           '/vue/vue-render-component.md',
           '/vue/vuex.md',
+          '/vue/vue-router@4-addRoutes'
         ]
       },
       {

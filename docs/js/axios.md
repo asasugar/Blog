@@ -65,22 +65,19 @@ import { againRequest } from './requestAgainSend'; // 请求重发
 import { requestInterceptor as cacheReqInterceptor, responseInterceptor as cacheResInterceptor } from './requestCache';
 
 // 返回结果处理
-// 自定义约定接口返回{error_code: xxx, result: xxx, reason:'err message'},根据聚合api模拟，具体可根据业务调整
+// 自定义约定接口返回{code: xxx, result: xxx, message: 'err message'}, 根据api模拟，具体可根据业务调整
 const responseHandle = {
-  0: response => {
-    return response.data.result;
+  200: response => {
+    return Promise.resolve(response.data);
   },
   201: response => {
-    alert(response.data.reason);
-    console.log(`参数异常:${response.data.reason}`);
+    alert(response.data.message);
+    console.log(`参数异常:${response.data.message}`);
+    return Promise.resolve(response.data);
   },
-  10012: response => {
-    alert(response.data.reason);
-    console.log(response.data.reason);
-  },
-  10022: response => {
-    alert(response.data.reason);
-    console.log(response.data.reason);
+  404: response => {
+    alert('接口地址不存在');
+    return Promise.reject(response);
   },
   default: response => {
     alert('操作失败');
@@ -125,7 +122,7 @@ axios.interceptors.response.use(
     // 响应正常时候就从pendingRequest对象中移除请求
     removePendingRequest(response);
     cacheResInterceptor(response);
-    return (responseHandle[response.data.error_code] || responseHandle['default'])(response);
+    return (responseHandle[response.data.code] || responseHandle['default'])(response);
   },
   error => {
     // 从pending 列表中移除请求
@@ -223,8 +220,8 @@ export function requestInterceptor(config, axios) {
 }
 
 export function responseInterceptor(response) {
-  // 返回的error_code === 0 时候才会缓存下来,可根据实际业务配置
-  if (response && response.config.cache && response.data.error_code === 0) {
+  // 返回的code === 0 时候才会缓存下来,可根据实际业务配置
+  if (response && response.config.cache && response.data.code === 0) {
     let data = {
       expire: getNowTime(),
       data: response

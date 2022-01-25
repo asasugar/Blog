@@ -24,6 +24,8 @@
 
 - [深度对比两个值是否相等](https://github.com/asasugar/Blog/blob/master/docs/js/isEqual.md)
 
+- [axios封装（支持请求失败自动重发,缓存请求，设置缓存过期时长）是否相等](https://github.com/asasugar/Blog/blob/master/docs/js/axios.md)
+
 ### Vue
 
 - [如何编写 Vue 插件？](https://github.com/asasugar/Blog/blob/master/docs/vue/vue-plugin.md)
@@ -31,6 +33,8 @@
 - [如何编写 Vue render 组件？](https://github.com/asasugar/Blog/blob/master/docs/vue/vue-render-component.md)
 
 - [实现一个极简易的Vuex核心功能](https://github.com/asasugar/Blog/blob/master/docs/vue/vuex.md)
+
+- [vue-router@4下实现addRoutes](https://github.com/asasugar/Blog/blob/master/docs/vue/vue-router@4-addRoutes.md)
 
 ### RN(基于0.59.xx)
 
@@ -75,6 +79,8 @@
 - [规范git提交利器指南](https://github.com/asasugar/Blog/blob/master/docs/other/git-commit.md	)
 
 - [vuepress搭建个人博客](https://github.com/asasugar/Blog/blob/master/docs/other/vuepress-blob.md	)
+
+- [移动端H5填坑](https://github.com/asasugar/Blog/blob/master/docs/other/h5.md	)
 
 
 
