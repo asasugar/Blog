@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/asasugar/Blog/compare/v1.3.0...v1.4.0) (2022-03-28)
+
+
+### Features
+
+* 🎸 add vue-router@4 how to use addRoutes ([fdf042b](https://github.com/asasugar/Blog/commit/fdf042bfe6915f7b81c759b428d20b448224423d))
+* 🎸 Typescript summary ([be26ad1](https://github.com/asasugar/Blog/commit/be26ad127cd7574c756d2d4d3a879d5ab1390a0b))
+
+
+### Bug Fixes
+
+* 🐛 rm test.ts ([f961472](https://github.com/asasugar/Blog/commit/f961472f737688c278d5ae76cf0b594ba6687a9a))
+
 ## [1.3.0](https://github.com/asasugar/Blog/compare/v1.2.0...v1.3.0) (2021-12-24)
 
 
