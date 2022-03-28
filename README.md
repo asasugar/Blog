@@ -26,6 +26,15 @@
 
 - [axios封装（支持请求失败自动重发,缓存请求，设置缓存过期时长）是否相等](https://github.com/asasugar/Blog/blob/master/docs/js/axios.md)
 
+### TS
+
+- [通俗易懂的 TS 教程（上）](https://github.com/asasugar/Blog/blob/master/docs/ts/ts-I.md)
+
+
+- [通俗易懂的 TS 教程（中）](https://github.com/asasugar/Blog/blob/master/docs/ts/ts-II.md)
+
+
+- [通俗易懂的 TS 教程（下）](https://github.com/asasugar/Blog/blob/master/docs/ts/ts-III.md)
 ### Vue
 
 - [如何编写 Vue 插件？](https://github.com/asasugar/Blog/blob/master/docs/vue/vue-plugin.md)

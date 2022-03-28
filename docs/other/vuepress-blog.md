@@ -148,6 +148,15 @@ module.exports = {
         ]
       },
       {
+        title: 'TS',
+        collapsable: false,
+        children: [
+          '/ts/ts-I.md',
+          '/ts/ts-II.md',
+          '/ts/ts-III.md',
+        ]
+      },
+      {
         title: 'Vue',
         collapsable: false,
         children: [

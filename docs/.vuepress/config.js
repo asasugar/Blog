@@ -44,6 +44,16 @@ module.exports = {
         ]
       },
       {
+        title: 'TS',
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+          '/ts/ts-I.md',
+          '/ts/ts-II.md',
+          '/ts/ts-III.md',
+        ]
+      },
+      {
         title: 'Vue',
         collapsable: false,
         children: [
