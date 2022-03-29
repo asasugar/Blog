@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/asasugar/Blog/compare/v1.4.0...v1.5.0) (2022-03-29)
+
+
+### Features
+
+* 🎸 通俗易懂的TS教程（中） ([e800db4](https://github.com/asasugar/Blog/commit/e800db4ec4c533e1dba90c4a4e8d318e34a9882c))
+
 ## [1.4.0](https://github.com/asasugar/Blog/compare/v1.3.0...v1.4.0) (2022-03-28)
 
 
