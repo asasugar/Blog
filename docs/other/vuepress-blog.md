@@ -120,7 +120,7 @@ module.exports = {
     lineNumbers: true,
   },
   themeConfig: {
-    repo: 'https://github.com/xxj95719/Blog', // 源码位置
+    repo: 'https://github.com/asasugar/Blog', // 源码位置
     repoLabel: 'My GitHub',
     lastUpdated: '上次更新', // 基于 git 提交时间生成的上次更新时间
     docsDir: 'docs',
