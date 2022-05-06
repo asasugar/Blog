@@ -2,7 +2,7 @@
 
 > 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单
 
-## 线上地址：[https://blog.jxxj.top](https://blog.jxxj.top)
+## 线上地址：[http://blog.jxxj.top](http://blog.jxxj.top)
 
 ## 目录
 
