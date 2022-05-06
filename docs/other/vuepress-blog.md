@@ -224,7 +224,7 @@ yarn add -D gh-pages # 或者：npm install -D gh-pages
 配置 CNAME 自定义域名 
 
 ```CNAME
-blog.xxjqepk.cn 
+blog.jxxj.top 
 ```
 
 执行命令
