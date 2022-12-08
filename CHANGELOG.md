@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/asasugar/Blog/compare/v1.5.0...v1.5.1) (2022-12-08)
+
+
+### Bug Fixes
+
+* 🐛 Updates repo url ([b93fd9f](https://github.com/asasugar/Blog/commit/b93fd9f8ac40431f873914ff10c19cdb0756146e))
+
 ## [1.5.0](https://github.com/asasugar/Blog/compare/v1.4.0...v1.5.0) (2022-03-29)
 
 
