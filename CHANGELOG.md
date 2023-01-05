@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/asasugar/Blog/compare/v1.5.1...v1.6.0) (2023-01-05)
+
+
+### Features
+
+* 🎸 Added ts-III ([7a95d54](https://github.com/asasugar/Blog/commit/7a95d54779e16ea308a0f5dd7548ea974b0caa10))
+
 ### [1.5.1](https://github.com/asasugar/Blog/compare/v1.5.0...v1.5.1) (2022-12-08)
 
 
