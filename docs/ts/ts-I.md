@@ -53,7 +53,7 @@ let isOK: boolean = undefined;
 let age: number = null;
 ```
 
-但是如果 `tsconfig.json` 指定了 `--strictNullChecks` 标记，null 和 undefined 只能赋值给 void 和它们各自，不然会报错。
+但是如果 `tsconfig.json` 指定了 `--strictNullChecks` 标记，null 和 undefined 只能赋值给它们各自，undefined 还可以赋值给 void，其他情况报错。
 
 > any、unknown 和 void 类型
 
