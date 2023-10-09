@@ -104,6 +104,7 @@ module.exports = {
           '/other/git-commit.md',
           '/other/vuepress-blog.md',
           '/other/h5.md',
+          '/other/skyline.md',
         ]
       }
     ]

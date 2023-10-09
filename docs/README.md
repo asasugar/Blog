@@ -4,7 +4,7 @@ heroImage: /kebogigi.jpg
 heroText: null
 tagline: R.I.P
 actionText: 最近更新 →
-actionLink: /ts/ts-III.md
+actionLink: /other/skyline.md
 features:
   - title: 💪
     details: I do what I do.

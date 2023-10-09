@@ -73,23 +73,25 @@
 
 ### 前端性能优化
 
-- [图片懒加载](https://github.com/asasugar/Blog/blob/master/docs/performanceOptimization/lazyImage.md	)
+- [图片懒加载](https://github.com/asasugar/Blog/blob/master/docs/performanceOptimization/lazyImage.md)
 
 ### 其他杂项
 
-- [带你掌握Git命令](https://github.com/asasugar/Blog/blob/master/docs/other/git.md	)
+- [带你掌握Git命令](https://github.com/asasugar/Blog/blob/master/docs/other/git.md)
 
-- [前端开发规范](https://github.com/asasugar/Blog/blob/master/docs/other/standard.md	)
+- [前端开发规范](https://github.com/asasugar/Blog/blob/master/docs/other/standard.md)
 
-- [git 生成 ssh key](https://github.com/asasugar/Blog/blob/master/docs/other/ssh-key.md	)
+- [git 生成 ssh key](https://github.com/asasugar/Blog/blob/master/docs/other/ssh-key.md)
 
-- [让浏览器下载文件，而不直接打开](https://github.com/asasugar/Blog/blob/master/docs/other/pdf-down.md	)
+- [让浏览器下载文件，而不直接打开](https://github.com/asasugar/Blog/blob/master/docs/other/pdf-down.md)
 
-- [规范git提交利器指南](https://github.com/asasugar/Blog/blob/master/docs/other/git-commit.md	)
+- [规范git提交利器指南](https://github.com/asasugar/Blog/blob/master/docs/other/git-commit.md)
 
-- [vuepress搭建个人博客](https://github.com/asasugar/Blog/blob/master/docs/other/vuepress-blob.md	)
+- [vuepress搭建个人博客](https://github.com/asasugar/Blog/blob/master/docs/other/vuepress-blob.md)
 
-- [移动端H5填坑](https://github.com/asasugar/Blog/blob/master/docs/other/h5.md	)
+- [移动端H5填坑](https://github.com/asasugar/Blog/blob/master/docs/other/h5.md)
+
+- [微信小程序Skyline迁移](https://github.com/asasugar/Blog/blob/master/docs/other/skyline.md)
 
 
 
