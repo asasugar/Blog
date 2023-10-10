@@ -79,7 +79,7 @@ Skyline 具体支持版本如下：
       "pureDataPattern": "^_"
     }
     ```    
-    说明：需要页面级的滚动事件监听则disableScroll需要改为true；renderer表示页面通过后端框架渲染skyline或者webview；必须使用自定义导航栏，因为目前skyline默认不支持系统导航栏；组件框架需指定glass-easel或者exparser ;pureDataPattern来指定纯数据字段（非渲染数据），详见https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/pure-data.html
+    说明：skyline 不支持页面全局滚动，为了使之与WebView保持兼容，在此禁止滚动；renderer表示页面通过后端框架渲染skyline或者webview；必须使用自定义导航栏，因为目前skyline默认不支持系统导航栏；组件框架需指定glass-easel或者exparser ;pureDataPattern来指定纯数据字段（非渲染数据），详见https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/pure-data.html
 
 3. skyline下Page.onPageScroll不支持，布局推荐scroll-view的局部滚动事件。一般来说，界面布局大多数都是导航栏 + 滚动区域的形式，提供一种常规做法（兼容 WebView）
     ```html
