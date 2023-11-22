@@ -8,7 +8,7 @@
   "scripts": {
     "serve": "vuepress dev docs --open",
     "build": "vuepress build docs",
-    "predeploy": "yarn build && cp CNAME docs/.vuepress/dist",
+    "predeploy": "yarn build && node ./scripts/render-cname.js",
     "deploy": "gh-pages -d docs/.vuepress/dist",
     "release": "standard-version"
   },
