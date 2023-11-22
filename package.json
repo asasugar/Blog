@@ -7,8 +7,7 @@
   "author": "xxj95719@gmail.com",
   "scripts": {
     "serve": "vuepress dev docs --open",
-    "build": "vuepress build docs",
-    "predeploy": "yarn build && node ./scripts/render-cname.js",
+    "build": "vuepress build docs && node ./scripts/render-cname.js",
     "deploy": "gh-pages -d docs/.vuepress/dist",
     "release": "standard-version"
   },
