@@ -71,6 +71,8 @@
 
 - [兄 dei，是时候给你的 Webpack 做一波优化了~](https://github.com/asasugar/Blog/blob/master/docs/buildTool/webpack-optimizate.md)
 
+- [importmap去做 Vite打包缓存“contentHash”](https://github.com/asasugar/Blog/blob/master/docs/buildTool/importmap.md)
+
 ### 前端性能优化
 
 - [图片懒加载](https://github.com/asasugar/Blog/blob/master/docs/performanceOptimization/lazyImage.md)
@@ -92,6 +94,3 @@
 - [移动端H5填坑](https://github.com/asasugar/Blog/blob/master/docs/other/h5.md)
 
 - [微信小程序Skyline迁移](https://github.com/asasugar/Blog/blob/master/docs/other/skyline.md)
-
-
-

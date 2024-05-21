@@ -83,7 +83,8 @@ module.exports = {
         collapsable: false,
         children: [
           '/buildTool/rollup.md',
-          '/buildTool/webpack-optimizate.md'
+          '/buildTool/webpack-optimizate.md',
+          '/buildTool/importmap.md'
         ]
       },
       {
