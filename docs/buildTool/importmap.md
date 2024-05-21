@@ -28,9 +28,11 @@ import('./module-[idHash].js');
 ## 效果对比
 
  1. 未修改文件时：两次打包对比
-![20240521100709](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100709.png)
-![20240521100914](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100914.png)
+
+    ![20240521100709](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100709.png)
+    ![20240521100914](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100914.png)
 
  2. 修改文件时：两次打包对比
-![20240521100709](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100709.png)
-![20240521100956](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100956.png)
+
+    ![20240521100709](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100709.png)
+    ![20240521100956](https://raw.githubusercontent.com/asasugar/pic-bed/master/imgs/20240521100956.png)
