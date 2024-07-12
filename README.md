@@ -73,6 +73,8 @@
 
 - [importmap去做 Vite打包缓存“contentHash”](https://github.com/asasugar/Blog/blob/master/docs/buildTool/importmap.md)
 
+- [package.json解析](https://github.com/asasugar/Blog/blob/master/docs/buildTool/package-json.md)
+
 ### 前端性能优化
 
 - [图片懒加载](https://github.com/asasugar/Blog/blob/master/docs/performanceOptimization/lazyImage.md)
@@ -94,3 +96,5 @@
 - [移动端H5填坑](https://github.com/asasugar/Blog/blob/master/docs/other/h5.md)
 
 - [微信小程序Skyline迁移](https://github.com/asasugar/Blog/blob/master/docs/other/skyline.md)
+
+- [除了PR以外，如何优雅地解决npm依赖 bug](https://github.com/asasugar/Blog/blob/master/docs/other/patch-package.md)

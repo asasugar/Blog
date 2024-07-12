@@ -84,7 +84,8 @@ module.exports = {
         children: [
           '/buildTool/rollup.md',
           '/buildTool/webpack-optimizate.md',
-          '/buildTool/importmap.md'
+          '/buildTool/importmap.md',
+          '/buildTool/package-json.md',
         ]
       },
       {
@@ -106,6 +107,7 @@ module.exports = {
           '/other/vuepress-blog.md',
           '/other/h5.md',
           '/other/skyline.md',
+          '/other/patch-package.md'
         ]
       }
     ]
