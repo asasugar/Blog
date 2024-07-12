@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/asasugar/Blog/compare/v1.8.1...v1.9.0) (2024-07-12)
+
+
+### Features
+
+* 🎸 新增package.json解析,优雅修复npm包bug ([5dcceef](https://github.com/asasugar/Blog/commit/5dcceef84f23ec76dd523bbab45e8bedfee6d83c))
+
 ### [1.8.1](https://github.com/asasugar/Blog/compare/v1.8.0...v1.8.1) (2024-07-12)
 
 ## 1.8.0 (2024-05-21)
