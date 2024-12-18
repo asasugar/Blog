@@ -75,6 +75,8 @@
 
 - [package.json解析](https://github.com/asasugar/Blog/blob/master/docs/buildTool/package-json.md)
 
+- [基于 Rspack 的构建能力升级实施方案](https://github.com/asasugar/Blog/blob/master/docs/buildTool/rspack.md)
+
 ### 前端性能优化
 
 - [图片懒加载](https://github.com/asasugar/Blog/blob/master/docs/performanceOptimization/lazyImage.md)

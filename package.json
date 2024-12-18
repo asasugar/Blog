@@ -17,11 +17,6 @@
     "gh-pages": "^2.2.0",
     "standard-version": "^8.0.1"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/git-cz"
-    }
-  },
   "dependencies": {
     "vuepress": "^1.4.0"
   }

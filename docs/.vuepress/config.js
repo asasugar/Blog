@@ -86,6 +86,7 @@ module.exports = {
           '/buildTool/webpack-optimizate.md',
           '/buildTool/importmap.md',
           '/buildTool/package-json.md',
+          '/buildTool/rspack.md',
         ]
       },
       {

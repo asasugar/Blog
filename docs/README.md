@@ -4,7 +4,7 @@ heroImage: /kebogigi.jpg
 heroText: null
 tagline: R.I.P
 actionText: 最近更新 →
-actionLink: /buildTool/package-json.md
+actionLink: /buildTool/rspack.md
 features:
   - title: 💪
     details: I do what I do.
