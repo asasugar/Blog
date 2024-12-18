@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/asasugar/Blog/compare/v1.9.1...v1.10.0) (2024-12-18)
+
+
+### Features
+
+* **Rspack:** ✨ 基于 Rspack 的构建能力升级实施方案 ([4185637](https://github.com/asasugar/Blog/commit/4185637fd7e524ba040ade47eae3bc61d1c89d40))
+
 ### [1.9.1](https://github.com/asasugar/Blog/compare/v1.9.0...v1.9.1) (2024-12-18)
 
 ## [1.9.0](https://github.com/asasugar/Blog/compare/v1.8.1...v1.9.0) (2024-07-12)
