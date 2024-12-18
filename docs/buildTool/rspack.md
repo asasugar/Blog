@@ -1,4 +1,4 @@
-# 基于 Rspack 的构建能力升级实施方案
+# 基于 Rspack 的构建能力升级实施方案（原构建工具为Webpack）
 
 ## 背景
 
@@ -84,9 +84,8 @@ npm uninstall webpack webpack-cli webpack-dev-server
 
 1. **copy-webpack-plugin → rspack.CopyRspackPlugin：**
 
-build/rspack.prod.js
-
 ```js
+// rspack.prod.js
 - const CopyWebpackPlugin = require('copy-webpack-plugin');
 + const { CopyRspackPlugin } = require('@rspack/core');
 const { PUBLIC_PATH, CLIENT_PUBLIC_PATH } = require('./utils/path');
@@ -111,9 +110,8 @@ module.exports = {
 
 2. **html-webpack-plugin → rspack.HtmlRspackPlugin**
 
-build/rspack.base.js
-
 ```js
+// rspack.base.js
 - const HtmlWebpackPlugin = require('html-webpack-plugin');
 + const { HtmlRspackPlugin } = require('@rspack/core');
 const { appConfigs } = require('./utils/appConfigs');
@@ -135,9 +133,9 @@ Rspack 实现了 webpack 5 的资源模块，使用资源模块来代替 file-lo
 
 1. **file-loader → asset/resource**
 
-build/rspack.base.js
 
 ```js
+// rspack.base.js
 module.exports = {
    module: {
      rules: [
@@ -163,9 +161,9 @@ module.exports = {
 
 2. **url-loader → asset/inline**
 
-build/rspack.base.js
 
 ```js
+// rspack.base.js
 module.exports = {
    module: {
      rules: [
@@ -188,9 +186,9 @@ module.exports = {
 
 确保在配置 Vue2 项目时关闭 `experiments.css` 或在 `CSS` 相关的规则中使用 `Rule.type = "javascript/auto"`
 
-build/rspack.base.js
 
 ```js
+// rspack.base.js
 module.exports = {
   experiments: {
     css: false,
