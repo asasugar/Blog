@@ -9,8 +9,7 @@
 ### 一、全局安装
 
 ```bish
-npm install -g cz-customizable
-npm install -g cz-git
+npm install -g commitizen cz-git
 ```
 
 run
@@ -24,16 +23,16 @@ git cz
 ### 二、本地安装
 
 ```bish
-npm install -g cz-customizable
-yarn add cz-git -D
+npm install commitizen cz-git -D
 ```
+
 package.json:
 
 ```json
 {
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+      "path": "cz-git"
     }
   },
 }
@@ -51,7 +50,6 @@ git cz
 {
   "path": "cz-git",
   "alias": {
-    "fd": "docs: fix typos"
   },
   "messages": {
     "type": "Select the type of change that you're committing:",
