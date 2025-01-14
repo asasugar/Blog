@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/asasugar/Blog/compare/v1.10.0...v1.11.0) (2025-01-14)
+
+
+### Features
+
+* **git:** ✨ 新增husky+lint-staged+cz-git ([c865399](https://github.com/asasugar/Blog/commit/c86539998a3c1258642836475e7de4f2babdd209))
+
 ## [1.10.0](https://github.com/asasugar/Blog/compare/v1.9.1...v1.10.0) (2024-12-18)
 
 
