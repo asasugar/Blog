@@ -100,15 +100,16 @@ module.exports = {
         title: '其他',
         collapsable: false,
         children: [
-          '/other/git.md',
-          '/other/standard.md',
           '/other/ssh-key.md',
-          '/other/pdf-down.md',
+          '/other/git.md',
           '/other/git-commit.md',
+          '/other/husky_lint-staged_cz-git.md',
+          '/other/standard.md',
+          '/other/pdf-down.md',
           '/other/vuepress-blog.md',
           '/other/h5.md',
           '/other/skyline.md',
-          '/other/patch-package.md'
+          '/other/patch-package.md',
         ]
       }
     ]
