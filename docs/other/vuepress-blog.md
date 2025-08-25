@@ -3,6 +3,7 @@
 > 请确保你的 Node.js 版本 >= 8
 
 ## 将 VuePress 作为一个本地依赖安装
+
 ```bish
 yarn add -D vuepress # 或者：npm install -D vuepress
 ```
@@ -35,12 +36,12 @@ yarn add -D vuepress # 或者：npm install -D vuepress
 │   │    └── vue-plugin.md
 │   └──  ...
 ├── README.md
-│   
-│ 
+│
+│
 ├── CNAME // 若使用自定义域名
-│ 
+│
 ├── package.json
-│ 
+│
 
 ```
 
@@ -59,7 +60,6 @@ echo '# Hello VuePress!' > docs/README.md
 yarn serve
 
 ```
-
 
 ## docs 文件夹下新建一个 .vuepress 文件夹
 
@@ -103,6 +103,7 @@ footer: MIT Licensed | Copyright © 2020-present JsSoooooCool
 ```
 
 ## 配置 config.js
+
 ```js
 module.exports = {
   base: '/',
@@ -221,10 +222,10 @@ yarn add -D gh-pages # 或者：npm install -D gh-pages
 },
 ```
 
-配置 CNAME 自定义域名 
+配置 CNAME 自定义域名
 
 ```CNAME
-blog.jxxj.top 
+blog.cinb1314.online
 ```
 
 执行命令
@@ -234,4 +235,5 @@ yarn deploy // 会打包出 dist 文件夹，并自动发布到 gh-pages 分支
 ```
 
 -----
+
 # ⭐️[查看源码](https://github.com/asasugar/Blog)
