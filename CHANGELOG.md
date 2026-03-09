@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/asasugar/Blog/compare/v1.11.0...v1.12.0) (2026-03-09)
+
+
+### Features
+
+* 🎸 更新域名 ([f1f0e90](https://github.com/asasugar/Blog/commit/f1f0e90a6e33edbc4ce157c917db481578afb71e))
+
 ## [1.11.0](https://github.com/asasugar/Blog/compare/v1.10.0...v1.11.0) (2025-01-14)
 
 

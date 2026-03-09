@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。",
   "main": "index.js",
   "repository": "https://github.com/asasugar/Blog.git",
