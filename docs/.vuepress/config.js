@@ -110,6 +110,7 @@ module.exports = {
           '/other/h5.md',
           '/other/skyline.md',
           '/other/patch-package.md',
+          '/other/aws-ip-rotation.md',
         ]
       }
     ]

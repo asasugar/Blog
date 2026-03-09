@@ -103,3 +103,5 @@
 - [微信小程序Skyline迁移](https://github.com/asasugar/Blog/blob/master/docs/other/skyline.md)
 
 - [除了PR以外，如何优雅地解决npm依赖 bug](https://github.com/asasugar/Blog/blob/master/docs/other/patch-package.md)
+
+- [AWS IP 轮换配置指南](https://github.com/asasugar/Blog/blob/master/docs/other/aws-ip-rotation.md)
