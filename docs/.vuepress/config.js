@@ -111,6 +111,7 @@ module.exports = {
           '/other/skyline.md',
           '/other/patch-package.md',
           '/other/aws-ip-rotation.md',
+          '/other/qq-imap-cloudflare.md',
         ]
       }
     ]

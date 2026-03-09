@@ -90,7 +90,7 @@ heroImage: /hero.png // 首页logo
 heroText: null
 tagline: 🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单
 actionText: 最近更新 →
-actionLink: /other/aws-ip-rotation.md
+actionLink: /other/qq-imap-cloudflare.md
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -200,7 +200,8 @@ module.exports = {
           '/other/husky_lint-staged_cz-git.md',
           '/other/patch-package.md',
           '/other/skyline.md',
-          '/other/aws-ip-rotation.md'
+          '/other/aws-ip-rotation.md',
+          '/other/qq-imap-cloudflare.md'
         ]
       }
     ]
