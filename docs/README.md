@@ -4,7 +4,7 @@ heroImage: /kebogigi.jpg
 heroText: null
 tagline: R.I.P
 actionText: 最近更新 →
-actionLink: /other/qq-imap-cloudflare.md
+actionLink: /other/vpn-setup.md
 features:
   - title: 💪
     details: I do what I do.

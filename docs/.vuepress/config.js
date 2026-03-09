@@ -112,6 +112,7 @@ module.exports = {
           '/other/patch-package.md',
           '/other/aws-ip-rotation.md',
           '/other/qq-imap-cloudflare.md',
+          '/other/vpn-setup.md',
         ]
       }
     ]
