@@ -109,3 +109,5 @@
 - [QQ 邮箱 + Cloudflare 邮件路由配置指南](https://github.com/asasugar/Blog/blob/master/docs/other/qq-imap-cloudflare.md)
 
 - [服务器搭建 VPN + Clash Verge Rev 配置教程](https://github.com/asasugar/Blog/blob/master/docs/other/vpn-setup.md)
+
+- [Outlook OAuth2 IMAP 配置指南](https://github.com/asasugar/Blog/blob/master/docs/other/outlook-oauth2-imap.md)

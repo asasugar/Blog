@@ -113,6 +113,7 @@ module.exports = {
           '/other/aws-ip-rotation.md',
           '/other/qq-imap-cloudflare.md',
           '/other/vpn-setup.md',
+          '/other/outlook-oauth2-imap.md',
         ]
       }
     ]

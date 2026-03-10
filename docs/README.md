@@ -4,7 +4,7 @@ heroImage: /kebogigi.jpg
 heroText: null
 tagline: R.I.P
 actionText: 最近更新 →
-actionLink: /other/vpn-setup.md
+actionLink: /other/outlook-oauth2-imap.md
 features:
   - title: 💪
     details: I do what I do.
