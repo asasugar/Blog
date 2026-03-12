@@ -19,8 +19,8 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 
 执行后进入交互式菜单，按以下步骤操作：
 
-1. 选择 `1. 安装` → `1. VLESS + Vision + Reality`（推荐）或根据需求选择其他协议
-2. 脚本会自动申请 TLS 证书、安装内核、配置协议
+1. 选择 `1. 安装` → `3. 一键无域名Reality` 或根据需求选择其他协议
+2. 核心安装选择 `1. Xray-core`，回车随机 `UUID` 、 `用户名` 和 `端口`
 3. 安装完成后，脚本会输出节点配置信息，**保存好这些信息**
 
 ### 3. 常用管理命令
@@ -28,7 +28,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 安装完成后，随时可以重新执行脚本进入管理菜单：
 
 ```bash
-/root/install.sh
+vasma
 ```
 
 菜单中可以：
