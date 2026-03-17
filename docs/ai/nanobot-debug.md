@@ -84,19 +84,19 @@ PYTHONPATH=. python3 -m nanobot.cli.commands agent
 
 代码改完后无需重新安装。若采用「PYTHONPATH + 模块」方式，可用脚本或别名简化命令。
 
-**脚本方式（项目内已提供）：**
+**脚本方式：**
 
 ```bash
 cd ~/nanobot
-./run-agent.sh
+./run-nanobot.sh
 ```
 
-`run-agent.sh` 内容：
+`run-nanobot.sh` 内容：
 
 ```bash
 #!/usr/bin/env bash
 cd "$(dirname "$0")"
-PYTHONPATH=. exec python3 -m nanobot.cli.commands agent "$@"
+PYTHONPATH=. exec python3 -m nanobot.cli.commands "$@"
 ```
 
 **别名方式：**
@@ -104,14 +104,14 @@ PYTHONPATH=. exec python3 -m nanobot.cli.commands agent "$@"
 在 `~/.bashrc` 添加：
 
 ```bash
-alias nanobot-agent='cd ~/nanobot && PYTHONPATH=. python3 -m nanobot.cli.commands agent'
+alias local-nanobot='cd ~/nanobot && ./run-nanobot.sh'
 ```
 
-执行 `source ~/.bashrc` 后，任意目录输入 `nanobot-agent` 即可。
+执行 `source ~/.bashrc` 后，任意目录输入 `local-nanobot` 即可。
 
 ## 总结
 
 | 场景           | 命令 |
 |----------------|------|
-| 调试 / 日常运行 | `cd ~/nanobot && PYTHONPATH=. python3 -m nanobot.cli.commands agent` 或 `./run-agent.sh` |
-| 确保用本地代码 | 必须带 `PYTHONPATH=.` 或使用 `run-agent.sh`，不要依赖 PATH 里的 `nanobot` |
+| 调试 / 日常运行 | `cd ~/nanobot && PYTHONPATH=. python3 -m nanobot.cli.commands agent` 或 `./run-nanobot.sh agent` |
+| 确保用本地代码 | 必须带 `PYTHONPATH=.` 或使用 `run-nanobot.sh`，不要依赖 PATH 里的 `nanobot` |
