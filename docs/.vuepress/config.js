@@ -28,6 +28,15 @@ module.exports = {
     // 侧栏
     sidebar: [
       {
+        title: 'AI',
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+          '/ai/nanobot-openaicodex-customResponse.md',
+          '/ai/nanobot-debug.md',
+        ]
+      },
+      {
         title: 'JS',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
