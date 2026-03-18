@@ -109,9 +109,54 @@ alias local-nanobot='cd ~/nanobot && ./run-nanobot.sh'
 
 执行 `source ~/.bashrc` 后，任意目录输入 `local-nanobot` 即可。
 
+### 6. 通过 Docker 在服务器上部署修改后的代码
+
+在项目目录构建镜像（镜像内包含当前代码）：
+
+```bash
+cd ~/nanobot
+docker build -t nanobot:local .
+```
+
+后台跑 gateway（配置与数据挂到宿主机 `~/.nanobot`）：
+
+```bash
+docker run -d --name nanobot-gateway \
+  -v ~/.nanobot:/root/.nanobot \
+  -p 18790:18790 \
+  nanobot:local \
+  gateway
+```
+
+一次性跑 agent：
+
+```bash
+docker run --rm -v ~/.nanobot:/root/.nanobot -it nanobot:local agent -m "你好"
+```
+
+**二次修改代码后更新：**
+
+1. 改完代码后重新构建：`cd ~/nanobot && docker build -t nanobot:local .`
+2. **gateway**：先停再删旧容器，再用新镜像起容器：
+
+```bash
+docker stop nanobot-gateway
+docker rm nanobot-gateway
+docker run -d --name nanobot-gateway \
+  -v ~/.nanobot:/root/.nanobot \
+  -p 18790:18790 \
+  nanobot:local \
+  gateway
+```
+
+3. **agent 一次性任务**：无需旧容器，直接再执行上面的 `docker run --rm ... agent` 即可，会用到新镜像。
+
 ## 总结
 
 | 场景           | 命令 |
 |----------------|------|
 | 调试 / 日常运行 | `cd ~/nanobot && PYTHONPATH=. python3 -m nanobot.cli.commands agent` 或 `./run-nanobot.sh agent` |
 | 确保用本地代码 | 必须带 `PYTHONPATH=.` 或使用 `run-nanobot.sh`，不要依赖 PATH 里的 `nanobot` |
+| Docker gateway | `docker build -t nanobot:local .` 后 `docker run -d ... nanobot:local gateway` |
+| Docker 单次 agent | `docker run --rm -v ~/.nanobot:/root/.nanobot -it nanobot:local agent -m "..."` |
+| Docker 改代码后 | 重新 `docker build`，gateway 需 `stop`/`rm` 后按原参数再起；agent 直接再 `docker run --rm` |
