@@ -17,7 +17,7 @@
 ### 二、iOS端修改info.plist
 引入了新特性App Transport Security (ATS)，新特性要求App内访问的网络必须使用HTTPS协议
 
-```plist
+```txt
 <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>
@@ -32,4 +32,3 @@
         </dict>
     </dict>
 ```
-

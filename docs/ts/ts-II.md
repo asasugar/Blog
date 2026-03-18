@@ -1214,7 +1214,7 @@ declare module '*.json' {
 
 比如安装 `lodash` 的类型包
 
-```bish
+```bash
 pnpm add @types/lodash -D
 ```
 

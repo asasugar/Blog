@@ -18,12 +18,12 @@
 ### 5.修改scheme,Product => Scheme => Manage Scheme ，这里你可以直接把原来的名字替换成新的名字。哦对了，这个地方不要双击，单击要改的地方按下回车就可以修改了
 
 ## 二、关闭xcode，重新run
-```bish
+```bash
 yarn start --reset-cache
 ```
 
 ## 三、打开xcode，清除缓存，重新run
-```bish
+```bash
  Product=>clean
  Product=>run
 ```

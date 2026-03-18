@@ -8,13 +8,13 @@
 
 ### 一、全局安装
 
-```bish
+```bash
 npm install -g commitizen cz-git
 ```
 
 run
 
-```bish
+```bash
 git cz
 ```
 
@@ -22,7 +22,7 @@ git cz
 
 ### 二、本地安装
 
-```bish
+```bash
 npm install commitizen cz-git -D
 ```
 
@@ -40,7 +40,7 @@ package.json:
 
 run
 
-```bish
+```bash
 git cz
 ```
 

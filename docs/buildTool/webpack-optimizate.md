@@ -137,7 +137,7 @@ module.exports = {
 
 首先，安装 babel-plugin-component：
 
-```bish
+```bash
 npm install babel-plugin-component -D
 ```
 
@@ -291,7 +291,7 @@ module.exports = {
 
 安装依赖
 
-```bish
+```bash
 yarn add cache-loader -D
 ```
 
@@ -387,8 +387,8 @@ module.exports = {
     },
     plugins: [
         new Happypack({
-            id: 'js', 
-            use: ['babel-loader'] 
+            id: 'js',
+            use: ['babel-loader']
         })
     ]
 }

@@ -10,26 +10,26 @@
 
 ## 3、进入.ssh 文件夹
 
-```bish
+```bash
 cd ~/.ssh/
 ```
 
 如果提示 “ No such file or directory”，你可以手动的创建一个 .ssh 文件夹
 
-```bish
+```bash
 mkdir ~/.ssh
 ```
 
 ## 4、配置全局的 name 和 email
 
-```bish
+```bash
 git config --global user.name "xxj95719"
 git config --global user.email "xxj95719@gmail.com"
 ```
 
 ## 5、生成 key
 
-```bish
+```bash
 ssh-keygen -t rsa -C "xxj95719@gmail.com"
 ```
 

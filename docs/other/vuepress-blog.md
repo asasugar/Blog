@@ -4,7 +4,7 @@
 
 ## 将 VuePress 作为一个本地依赖安装
 
-```bish
+```bash
 yarn add -D vuepress # 或者：npm install -D vuepress
 ```
 
@@ -47,7 +47,7 @@ yarn add -D vuepress # 或者：npm install -D vuepress
 
 ## 开始写作
 
-```bish
+```bash
 # 新建一个 docs 文件夹
 mkdir docs
 
@@ -63,7 +63,7 @@ yarn serve
 
 ## docs 文件夹下新建一个 .vuepress 文件夹
 
-```bish
+```bash
 # 进入 docs 文件夹
 cd docs
 
@@ -215,7 +215,7 @@ module.exports = {
 
 安装本地依赖
 
-```bish
+```bash
 yarn add -D gh-pages # 或者：npm install -D gh-pages
 ```
 
@@ -231,13 +231,13 @@ yarn add -D gh-pages # 或者：npm install -D gh-pages
 
 配置 CNAME 自定义域名
 
-```CNAME
+```txt
 blog.cinb1314.online
 ```
 
 执行命令
 
-```bish
+```bash
 yarn deploy // 会打包出 dist 文件夹，并自动发布到 gh-pages 分支
 ```
 

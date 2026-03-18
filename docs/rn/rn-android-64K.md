@@ -5,7 +5,7 @@
 
 
 ### 一、报错如下：
-```bish
+```bash
 D8: Cannot fit requested classes in a single dex file (# methods: xxxxx > 65536)
 
 trouble writing output:
@@ -14,7 +14,7 @@ You may try using --multi-dex option.
 ```
 
 较低版本的编译系统会报告一个不同的错误，但指示的是同一问题：
-```bish
+```bash
 Conversion to Dalvik format failed:
 Unable to execute dex: method ID not in [0, 0xffff]: 65536
 ```
@@ -23,7 +23,7 @@ Unable to execute dex: method ID not in [0, 0xffff]: 65536
 
 #### 1、在 `android/app/build.gradle`, 更新 `dependency` :
 
-```gradle
+```txt
 defaultConfig {
     // ... your `applicationId`, etc.
     multiDexEnabled true

@@ -6,16 +6,16 @@
 
 #### 1、在 `android/app/build.gradle` :
 
-```gradle
+```txt
 import java.io.File;
-import groovy.json.JsonSlurper 
+import groovy.json.JsonSlurper
 
 def getAppVersion() {
     def inputFile = new File("../package.json")
     def packageJson = new JsonSlurper().parseText(inputFile.text)
     return packageJson["version"]
 }
- 
+
 def appVersion = getAppVersion()
 
 ...

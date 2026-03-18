@@ -2,14 +2,14 @@
 
 ## 1、安装 `mobx-react`、`mobx`，重点：控制为同一个大版本
 
-```bish
+```bash
 yarn add mobx mobx-react
 ```
 ![20190725205246.png](https://i.loli.net/2019/07/25/5d39a62498c9b35750.png)
 
 ## 2、安装 babel 支持装饰器@ `@babel/plugin-proposal-decorators`，控制为同一个大版本
 
-```bish
+```bash
 yarn add @babel/core @babel/runtime @babel/plugin-proposal-decorators -D
 ```
 ![20190725205654.png](https://i.loli.net/2019/07/25/5d39a718aafe228583.png)
@@ -72,7 +72,7 @@ export default class Global {
 
 ```
 
-- 在App.js中通过 `Provider` 组件挂载 rootStore 
+- 在App.js中通过 `Provider` 组件挂载 rootStore
 
 ```js
 import React from 'react';

@@ -4,7 +4,7 @@
 
 ## 1.安装依赖包
 
-```bish
+```bash
 yarn add babel-eslint eslint eslint-config-airbnb eslint-config-react-native eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-module-resolver eslint-plugin-react eslint-plugin-react-native -D
 ```
 
@@ -155,4 +155,3 @@ yarn add husky lint-staged -D
   },
 }
 ```
-

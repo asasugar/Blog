@@ -8,7 +8,7 @@ npm init
 
 ## 安装 rollup
 
-```bish
+```bash
 yarn add rollup -D
 ```
 
@@ -16,11 +16,11 @@ yarn add rollup -D
 
 ### 许多开发人员在他们的项目中使用[Babel](https://babeljs.io/)，以便他们可以使用未被浏览器和 Node.js 支持的将来版本的 JavaScript 特性。
 
-```bish
+```bash
 yarn add @babel/core @babel/preset-env babel-preset-es2015-rollup -D
 ```
 
-```bish
+```bash
 yarn add rollup-plugin-babel -D
 ```
 
@@ -48,13 +48,13 @@ export default {
 
 ### 现在，在我们运行 rollup 之前，我们需要安装 external-helpers 插件
 
-```bish
+```bash
 yarn add babel-plugin-external-helpers -D
 ```
 
 ### 若使用 class 需要安装 plugin-proposal-class-properties 插件
 
-```bish
+```bash
 yarn add @babel/plugin-proposal-class-properties -D
 ```
 
@@ -70,7 +70,7 @@ module.exports = {
 
 ### 使用 rollup-plugin-uglify 插件进行代码压缩
 
-```bish
+```bash
 yarn add rollup-plugin-uglify -D
 ```
 

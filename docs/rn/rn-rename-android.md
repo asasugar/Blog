@@ -8,7 +8,7 @@
 ## 一、手动更改
 
 ### 1.找到 MainActivity.java | MainApplication.java
-```bish
+```bash
 android/app/src/main/java/com/myapp/MainActivity.java
 android/app/src/main/java/com/myapp/MainApplication.java
 ```
@@ -28,7 +28,7 @@ protected String getMainComponentName() {
 
 调整后结构如下：
 
-```bish
+```bash
 android/app/src/main/java/com/rn/app/MainActivity.java
 android/app/src/main/java/com/rn/app/MainApplication.java
 
@@ -69,7 +69,7 @@ android/app/src/main/java/com/rn/app/MainApplication.java
 
 ### 6.修改android/settings.gradle
 
-```gradle
+```txt
 rootProject.name = 'app'
 ```
 
@@ -94,13 +94,13 @@ rootProject.name = 'app'
 
 ### 1.全局安装`react-native-rename`
 
-```bish
+```bash
 npm i react-native-rename -g
 ```
 
 ### 2.到项目根目录执行：
 
-```bish
+```bash
 react-native-rename "app" -b com.rn.app
 ```
 

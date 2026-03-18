@@ -30,37 +30,37 @@
 
 - 配置用户名
 
-  ```bish
+  ```bash
   git config --global user.name "your name"
   ```
 
 - 配置用户邮箱
 
-  ```bish
+  ```bash
   git config --global user.email "youremail@github.com"
   ```
 
 - 列出当前配置
 
-  ```bish
+  ```bash
   git config --list
   ```
 
 - 列出 Repository 配置
 
-  ```bish
+  ```bash
   git config --local --list
   ```
 
 - 列出全局配置
 
-  ```bish
+  ```bash
   git config --global --list
   ```
 
 - 列出系统配置
 
-  ```bish
+  ```bash
   git config --system --list
   ```
 
@@ -68,37 +68,37 @@
 
 - 查看本地分支
 
-  ```bish
+  ```bash
   git branch
   ```
 
 - 查看远程分支
 
-  ```bish
+  ```bash
   git branch -r
   ```
 
 - 查看本地和远程分支
 
-  ```bish
+  ```bash
   git branch -a
   ```
 
 - 切换到其他分支
 
-  ```bish
+  ```bash
   git checkout <branch-name>
   ```
 
 - 基于当前分支创建并切换到新建分支
 
-  ```bish
+  ```bash
   git checkout -b <branch-name>
   ```
 
 - 拉取远程分支并创建本地分支
 
-  ```bish
+  ```bash
   git checkout -b 本地分支名x origin/远程分支名x
 
   // 另外一种方式,也可以完成这个操作。
@@ -107,31 +107,31 @@
 
 - 重命名本地分支
 
-  ```bish
+  ```bash
   git branch -m <oldbranch-name> <newbranch-name>
   ```
 
 - 当前分支与指定分支合并
 
-  ```bish
+  ```bash
   git merge <branch-name>
   ```
 
 - 删除本地分支
 
-  ```bish
+  ```bash
   git branch -d <branch-name>
   ```
 
 - 删除远程分支
 
-  ```bish
+  ```bash
   git push origin -d <branch-name>
   ```
 
 - 重命名本地并推送至远程分支
 
-  ```bish
+  ```bash
   git branch -m <oldbranch-name> <newbranch-name>
   git push origin :<oldbranch-name>
   git push --set-upstream origin <newbranch-name>
@@ -158,13 +158,13 @@
 
 - 撤销工作区修改
 
-  ```bish
+  ```bash
   git checkout --
   ```
 
 - 暂存区文件撤销 (不覆盖工作区)
 
-  ```bish
+  ```bash
   git reset HEAD
   ```
 
@@ -172,13 +172,13 @@
 
   - 显示从最近到最远的提交日志
 
-    ```bish
+    ```bash
     git log
     ```
 
   - 回退到指定 commit-id 版本
 
-    ```bish
+    ```bash
     git reset --(soft | mixed | hard ) <commit-id> // 底下会列出三者的区别
     // 举个例子👇
     git reset --hard 7222c8f6be2d663982faa98dffe2647966b438b1
@@ -186,12 +186,12 @@
 
   - 推送到本地到远程仓库：让远程仓库代码和你本地一样，到当前你本地的版本
 
-    ```bish
+    ```bash
     git push origin HEAD --force
     ```
 
   - 这个时候突然又发现不需要回退了，刚才那些消失的代码又要重新找回来了
-    `bish git reflog git reset --(soft | mixed | hard ) <commit-id>`
+    `bash git reflog git reset --(soft | mixed | hard ) <commit-id>`
     > `revert` 的语法和命令和 `reset` 一致。但是产生的实际效果会有不同,从需要提交到远程分支的角度来讲，reset 能够“毁尸灭迹”，不让别人发现我们曾经错误的合并过分支（注：多人协作中，需要谨慎使用）；revert 则会将合并分支和撤回记录一并显示在远程提交记录上
 
 ## soft | mixed | hard

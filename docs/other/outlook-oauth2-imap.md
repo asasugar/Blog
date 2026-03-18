@@ -60,7 +60,7 @@ Device Code Flow 需要开启此选项，否则会报 `AADSTS70002` 错误。
 
 更新 `.env` 文件，填写目标邮箱：
 
-```env
+```yaml
 OUTLOOK_CLIENT_ID=你的ClientID
 OUTLOOK_USER=handsome@outlook.com
 OUTLOOK_REFRESH_TOKEN=

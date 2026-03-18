@@ -2,7 +2,7 @@
 
 ## 安装依赖
 
-```bish
+```bash
 npm i -D husky lint-staged cz-git cross-env
 ```
 
@@ -43,7 +43,7 @@ npm i -D husky lint-staged cz-git cross-env
 
 ## 初始化 `husky`
 
-```bish
+```bash
 npm run husky:init
 ```
 
