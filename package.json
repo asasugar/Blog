@@ -8,7 +8,7 @@
   "author": "asasugar <jayhsueh95@gmail.com>",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs && node ./scripts/render-cname.ts",
+    "build": "vitepress build docs && node ./scripts/render-cname.mjs",
     "preview": "vitepress preview docs"
   },
   "license": "MIT",
