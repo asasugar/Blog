@@ -1,4 +1,4 @@
 node_modules
-docs/.vuepress/dist
+docs/.vitepress/dist
 .vscode
 .DS_Store

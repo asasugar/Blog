@@ -1,21 +1,19 @@
 {
   "name": "blog",
-  "version": "1.12.1",
   "description": "🤞 带着自己的影子回家的时候，才知道什么是寂寞和孤单。",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/asasugar/Blog.git",
-  "author": "xxj95719@gmail.com",
+  "author": "asasugar <jayhsueh95@gmail.com>",
   "scripts": {
-    "serve": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs --open",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs && node ./scripts/render-cname.js",
-    "deploy": "gh-pages -d docs/.vuepress/dist"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs && node ./scripts/render-cname.js",
+    "preview": "vitepress preview docs"
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.4.0",
-    "gh-pages": "^2.2.0"
-  },
-  "dependencies": {
-    "vuepress": "^1.4.0"
+    "@vueuse/core": "^10.0.0",
+    "vitepress": "2.0.0-alpha.16",
+    "vue": "^3.5.30"
   }
 }
