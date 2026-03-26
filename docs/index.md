@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 最近更新
-      link: /ai/nanobot-openaicodex-customResponse
+      link: /buildTool/docker
     - theme: alt
       text: View on GitHub
       link: https://github.com/asasugar/Blog

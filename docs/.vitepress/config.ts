@@ -43,7 +43,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'SuperSpec', link: 'https://github.com/asasugar/SuperSpec' },
-      { text: '最近更新', link: '/ai/nanobot-openaicodex-customResponse' },
+      { text: '最近更新', link: '/buildTool/docker' },
     ],
 
     sidebar: {
@@ -109,6 +109,7 @@ export default defineConfig({
           text: '构建工具',
           collapsed: false,
           items: [
+            { text: 'Docker 与 Docker Compose 通用实战指南', link: '/buildTool/docker' },
             { text: 'Rollup', link: '/buildTool/rollup' },
             { text: 'Webpack 优化', link: '/buildTool/webpack-optimizate' },
             { text: 'Import Map', link: '/buildTool/importmap' },
