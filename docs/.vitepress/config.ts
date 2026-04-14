@@ -43,7 +43,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'SuperSpec', link: 'https://github.com/asasugar/SuperSpec' },
-      { text: '最近更新', link: '/buildTool/ollama-linux-deploy' },
+      { text: '最近更新', link: '/ai/ollama-linux-deploy' },
     ],
 
     sidebar: {
