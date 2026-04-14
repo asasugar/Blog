@@ -43,7 +43,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'SuperSpec', link: 'https://github.com/asasugar/SuperSpec' },
-      { text: '最近更新', link: '/buildTool/docker' },
+      { text: '最近更新', link: '/buildTool/ollama-linux-deploy' },
     ],
 
     sidebar: {
@@ -54,6 +54,7 @@ export default defineConfig({
           items: [
             { text: 'nanobot openai_codex 如何支持自定义 Responses', link: '/ai/nanobot-openaicodex-customResponse' },
             { text: 'nanobot 修改与调试过程', link: '/ai/nanobot-debug' },
+            { text: 'Ollama Linux 服务器本地部署', link: '/ai/ollama-linux-deploy' },
           ]
         },
         {

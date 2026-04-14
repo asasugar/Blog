@@ -10,6 +10,8 @@
 
 - [Nanobot openai_codex 如何支持自定义 Responses](https://github.com/asasugar/Blog/blob/master/docs/ai/nanobot-openaicodex-customResponse.md)
 - [Nanobot 修改与调试过程](https://github.com/asasugar/Blog/blob/master/docs/ai/nanobot-debug.md)
+- [Ollama Linux 服务器本地部署](https://github.com/asasugar/Blog/blob/master/docs/ai/ollama-linux-deploy.md)
+
 ### JS
 
 - [数组去重](https://github.com/asasugar/Blog/blob/master/docs/js/array-deduplication.md)

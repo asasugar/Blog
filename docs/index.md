@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 最近更新
-      link: /buildTool/docker
+      link: /buildTool/ollama-linux-deploy
     - theme: alt
       text: View on GitHub
       link: https://github.com/asasugar/Blog
