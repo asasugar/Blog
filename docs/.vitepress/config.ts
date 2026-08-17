@@ -43,7 +43,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'SuperSpec', link: 'https://github.com/asasugar/SuperSpec' },
-      { text: '最近更新', link: '/ai/ollama-linux-deploy' },
+      { text: '最近更新', link: '/ai/ag-ui' },
     ],
 
     sidebar: {
@@ -55,6 +55,7 @@ export default defineConfig({
             { text: 'nanobot openai_codex 如何支持自定义 Responses', link: '/ai/nanobot-openaicodex-customResponse' },
             { text: 'nanobot 修改与调试过程', link: '/ai/nanobot-debug' },
             { text: 'Ollama Linux 服务器本地部署', link: '/ai/ollama-linux-deploy' },
+            { text: 'AG-UI：把 Agent 与前端之间的“私有暗号”变成标准协议', link: '/ai/ag-ui' },
           ]
         },
         {

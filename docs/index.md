@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 最近更新
-      link: /ai/ollama-linux-deploy
+      link: /ai/ag-ui
     - theme: alt
       text: View on GitHub
       link: https://github.com/asasugar/Blog
